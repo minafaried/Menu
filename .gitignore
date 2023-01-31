@@ -1,0 +1,45 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Miscellaneous
+/menu_mobile/*.class
+/menu_mobile/*.log
+/menu_mobile/*.pyc
+/menu_mobile/*.swp
+/menu_mobile/.DS_Store
+/menu_mobile/.atom/
+/menu_mobile/.buildlog/
+/menu_mobile/.history
+/menu_mobile/.svn/
+/migrate_working_dir/
+
+# IntelliJ related
+/menu_mobile/*.iml
+/menu_mobile/*.ipr
+/menu_mobile/*.iws
+/menu_mobile/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+/menu_mobile/**/doc/api/
+/menu_mobile/**/ios/Flutter/.last_build_id
+/menu_mobile/.dart_tool/
+/menu_mobile/.flutter-plugins
+/menu_mobile/.flutter-plugins-dependencies
+/menu_mobile/.packages
+/menu_mobile/.pub-cache/
+/menu_mobile/.pub/
+/menu_mobile/build/
+
+# Symbolication related
+/menu_mobile/app.*.symbols
+
+# Obfuscation related
+/menu_mobile/app.*.map.json
+# Android Studio will place build artifacts here
+/menu_mobile/android/app/debug
+/menu_mobile/android/app/profile
+/menu_mobile/android/app/release
