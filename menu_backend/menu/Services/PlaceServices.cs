@@ -129,6 +129,13 @@ namespace where.Services
         {
             try
             {
+                if (placeDto.name==null|| placeDto.name == "" ||
+                    placeDto.location == null || placeDto.location == "" ||
+                    placeDto.categoryId == null || placeDto.categoryId == "" ||
+                    placeDto.menuImages.Count == 0 || placeDto.menuImages == null )
+                {
+                    return null;
+                }
                 FirebasePlaceDto firebasePlaceDto = new FirebasePlaceDto
                 {
                     name = placeDto.name,

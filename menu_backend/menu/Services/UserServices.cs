@@ -52,6 +52,10 @@ namespace where.Services
         {
             try
             {
+                if (userDto.name == null || userDto.name == "" || userDto.email == "" || userDto.email == null || userDto.password == "" || userDto.password == null)
+                {
+                    return null;
+                }
                 userDto.password = hashingPassword(userDto.password);
                 DocumentReference DocRef = await userCollection.AddAsync(userDto);
                 User user = new User(DocRef.Id,

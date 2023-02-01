@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zit4Xy1YlU4NhXKeKGy7u/Ypwg0QYCTtbnSh/9qTA7y+WDmVwYGWFnFwAFO9uoPoFshMB0nORJ6cky6RNQsmgw==",
+  "dgSpecHash": "m8HFzWklx9uRW+yiDjRtEPBmtymVUdvJI3SoU5ls71Gjd9r/f3ZTKUUJcV3LEOZuleqD5y38zc1cLwxzA/3UQg==",
   "success": true,
-  "projectFilePath": "D:\\dotNet\\where\\menu_backend\\menu\\menu.csproj",
+  "projectFilePath": "D:\\dotNet\\Menu\\menu_backend\\menu\\menu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MinaF\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
     "C:\\Users\\MinaF\\.nuget\\packages\\firebasestorage.net\\1.0.3\\firebasestorage.net.1.0.3.nupkg.sha512",

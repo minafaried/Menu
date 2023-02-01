@@ -3,7 +3,7 @@ using where.Models.PlaceModels;
 using where.Models.UserModels;
 using where.Services;
 
-namespace eComm.Controllers
+namespace where.Controllers
 {
     [Route("api/Users")]
     [ApiController]

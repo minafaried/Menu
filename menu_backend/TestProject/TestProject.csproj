@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\where\menu.csproj" />
+    <ProjectReference Include="..\menu\menu.csproj" />
   </ItemGroup>
 
 </Project>

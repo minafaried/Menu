@@ -4,7 +4,7 @@ using where.Models.CategoryModels;
 using where.Models.PlaceModels;
 using where.Services;
 
-namespace eComm.CategoriesController
+namespace where.CategoriesController
 {
     [Route("api/Categories")]
     [ApiController]

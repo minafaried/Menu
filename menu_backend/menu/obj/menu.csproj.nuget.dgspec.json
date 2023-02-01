@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotNet\\where\\menu_backend\\menu\\menu.csproj": {}
+    "D:\\dotNet\\Menu\\menu_backend\\menu\\menu.csproj": {}
   },
   "projects": {
-    "D:\\dotNet\\where\\menu_backend\\menu\\menu.csproj": {
+    "D:\\dotNet\\Menu\\menu_backend\\menu\\menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotNet\\where\\menu_backend\\menu\\menu.csproj",
+        "projectUniqueName": "D:\\dotNet\\Menu\\menu_backend\\menu\\menu.csproj",
         "projectName": "menu",
-        "projectPath": "D:\\dotNet\\where\\menu_backend\\menu\\menu.csproj",
+        "projectPath": "D:\\dotNet\\Menu\\menu_backend\\menu\\menu.csproj",
         "packagesPath": "C:\\Users\\MinaF\\.nuget\\packages\\",
-        "outputPath": "D:\\dotNet\\where\\menu_backend\\menu\\obj\\",
+        "outputPath": "D:\\dotNet\\Menu\\menu_backend\\menu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MinaF\\AppData\\Roaming\\NuGet\\NuGet.Config",

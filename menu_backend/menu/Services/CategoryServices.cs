@@ -48,6 +48,10 @@ namespace where.Services
         public async Task<Category> addCategory(CategotyDto categotyDto)
         {
             try{
+                if(categotyDto.name==null|| categotyDto.name == "")
+                {
+                    return null;
+                }
                 DocumentReference DocRef = await categoryCollection.AddAsync(categotyDto);
                 var category = new Category(DocRef.Id, categotyDto.name);
                 return category;

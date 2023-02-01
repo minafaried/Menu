@@ -1,13 +1,14 @@
-﻿using eComm.Controllers;
+﻿
 using FakeItEasy;
 using FluentAssertions;
+using Google.Rpc;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using where.Models.PlaceModels;
+using where.Controllers;
 using where.Models.UserModels;
 using where.Services;
 
@@ -56,6 +57,28 @@ namespace TestProject.Controllers
             //Assert
             result.Should().NotBeNull();
             result.Should().BeOfType(typeof(OkObjectResult));
+        }
+        [Fact]
+        public async Task signUpNullValue_test()
+        {
+            UsersController usersController = new UsersController(new UserServices(), new PlaceServices());
+
+            var result = await usersController.signUp(new UserDto());
+
+            //Assert
+            result.Should().NotBeNull();
+            result.Should().BeOfType(typeof(BadRequestResult));
+        }
+        [Fact]
+        public async Task signUpEmptyValue_test()
+        {
+            UsersController usersController = new UsersController(new UserServices(), new PlaceServices());
+
+            var result = await usersController.signUp(new UserDto() { email="",name="mina",password="123"});
+
+            //Assert
+            result.Should().NotBeNull();
+            result.Should().BeOfType(typeof(BadRequestResult));
         }
 
     }
